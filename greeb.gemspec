@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = 'greeb'
 
-  s.add_dependency 'rspec', '~> 2.4.0'
+  s.add_dependency 'rspec', '~> 2.6.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
